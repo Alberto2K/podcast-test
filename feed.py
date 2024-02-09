@@ -1,5 +1,5 @@
 import yaml
-import xml.etree.cElementTree as xml_tree
+import xml.etree.ElementTree as xml_tree
 
 with open('feed.yaml','r') as file:
     yaml_data = yaml.safe_load(file)
